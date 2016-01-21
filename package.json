@@ -1,0 +1,17 @@
+{
+  "name": "epic-time",
+  "version": "0.0.1",
+  "description": "Mock javascript dates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "codeocelot",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.11.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
