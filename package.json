@@ -13,5 +13,6 @@
   },
   "devDependencies": {
     "mocha": "^2.3.4"
-  }
+  },
+  "tonicExampleFilename":"tonic.js"
 }
