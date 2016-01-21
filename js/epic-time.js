@@ -4,5 +4,6 @@ module.exports = function(){
   epochs.forEach(e=>{
     dur[e] = Math.floor(Math.random() * 20) + 1 ;
   });
-  return moment().add(dur);
+  if(Math.floor(Math.random()*2) % 2) return moment().add(dur);
+  else return moment().subtract(dur);
 }
