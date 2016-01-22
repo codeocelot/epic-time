@@ -6,13 +6,23 @@
   "scripts": {
     "test": "mocha test/main.js"
   },
+  "config": {
+    "blanket": {
+      "pattern": "js/*"
+    }
+  },
   "author": "codeocelot",
   "license": "ISC",
   "dependencies": {
     "moment": "^2.11.1"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "blanket": "^1.2.1",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2",
+    "istanbul-coveralls": "^1.0.3",
+    "mocha": "^2.3.4",
+    "mocha-lcov-reporter": "^1.0.0"
   },
-  "tonicExampleFilename":"tonic.js"
+  "tonicExampleFilename": "tonic.js"
 }

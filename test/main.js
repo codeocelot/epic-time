@@ -1,4 +1,5 @@
 
+//require('blanket')
 var epoch = require('../index');
 var moment = require('moment');
 var assert = require('assert');
